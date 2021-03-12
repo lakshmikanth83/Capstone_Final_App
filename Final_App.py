@@ -40,7 +40,7 @@ st.image(drexel, width=200)
 
 input_task = st.selectbox("Select task", options=list(['Detection_Classification','Classification']))
 # st.write(input_task)
-st.write("[Example link](https://s.driving-tests.org/wp-content/uploads/2019/10/stop-sign-2.jpg)")
+st.write("[Example link](https://images.cdn3.stockunlimited.net/preview1300/collection-of-us-road-signs_1624149.jpg)")
 url = st.text_input("Input the image URL here")
 # image_path = Image.open(requests.get(url, stream=True).raw)
 # image_path.save("imagefromurl.jpg")
